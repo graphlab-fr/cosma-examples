@@ -1,0 +1,55 @@
+select_origin: directory
+files_origin: ./data
+export_target: ./export/
+history: false
+focus_max: 2
+record_types:
+  undefined:
+    fill: "#858585"
+    stroke: "#858585"
+  objet:
+    fill: "#4daf4a"
+    stroke: "#4daf4a"
+  concept:
+    fill: "#984ea3"
+    stroke: "#984ea3"
+  pratique:
+    fill: "#ff7f00"
+    stroke: "#ff7f00"
+link_types:
+  undefined:
+    stroke: simple
+    color: "#e1e1e1"
+  associé:
+    stroke: dotted
+    color: "#e1e1e1"
+record_filters: []
+graph_background_color: "#ffffff"
+graph_highlight_color: "#c2c2c2"
+graph_highlight_on_hover: true
+graph_text_size: 8
+graph_arrows: true
+node_size_method: degree
+node_size: 10
+node_size_max: 20
+node_size_min: 2
+attraction_force: 200
+attraction_distance_max: 250
+attraction_vertical: 0
+attraction_horizontal: 0
+views: {}
+record_metas: []
+generate_id: always
+link_context: inline
+hide_id_from_record_header: true
+title: Glossaire de l’indexation
+author: Jacques et Dominique Maniez
+description: "Ce glossaire de l’indexation a été élaboré par Jacques et Dominique Maniez, publié dans leur ouvrage “Concevoir l’index d’un livre : histoire, actualité, perspectives” (Paris : ADBS éditions, 2009). Cette version hypertextuelle a été réalisée par Arthur Perret avec l'accord et le soutien de Dominique Maniez. Quelques modifications mineures ont été effectuées, indiquées par le symbole ⨁ (essentiellement l'ajout de liens pour éviter les termes isolés)."
+keywords: []
+link_symbol: ""
+csl: ""
+bibliography: ""
+csl_locale: ""
+css_custom: ./indexation.css
+devtools: false
+lang: fr

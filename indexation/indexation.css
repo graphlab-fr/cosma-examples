@@ -1,0 +1,86 @@
+.menu-index-list {
+	max-height: 50vh;
+	overflow: scroll;
+	border-top: 1px solid var(--border-color);
+	border-bottom: 1px solid var(--border-color);
+}
+
+a.record-link {
+	text-decoration-style: dotted;
+}
+
+em.link-text {
+	font-style: normal;
+}
+
+.menu-tags-container button {
+	font-size: 1.2rem;
+	font-family: var(--condensed);
+	margin: .4rem .2rem 0 .2rem;
+	padding: 0 0 0 5px;
+	color: black;
+}
+
+.record div.csl-entry {
+	font-size: 1.2rem;
+}
+
+text {
+	font-family: var(--condensed);
+	fill: #5b5b5b;
+}
+
+line {
+	stroke-width: 0.5;
+}
+
+.title,
+details > summary,
+.record header div span:first-of-type {
+	text-transform: unset;
+}
+
+.title {
+	font-weight: 200;
+	font-size: 3.8rem;
+}
+details > summary {
+	font-weight: normal;
+}
+.record header div span:first-of-type {
+	font-weight: 300;
+}
+h1.record-title {
+	font-weight: 300;
+	font-size: 2em;
+	color: var(--off-black);
+}
+
+.record footer details > summary {
+	text-transform: capitalize;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.title {
+	color: inherit;
+}
+
+article#credits p.metas-description {
+	text-align: left;
+}
+
+button.menu-tags-btn,
+div.graph-chronos,
+span.tooltip {
+	display: none;
+}
+
+.record header div span:first-of-type {
+	font-size: inherit
+}
+
+div.graph-controls {
+	bottom: 15px;
+}
+
